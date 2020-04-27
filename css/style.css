@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  color: darkkhaki;
+  background: #111;
+}
+
+*::-moz-selection {
+  color: darkkhaki;
+  background: #111;
+}
+
 body {
   background: #444;
   overflow-x: hidden;
@@ -26,6 +36,11 @@ a {
   color: #f4f4f4;
   list-style: none;
   text-decoration: none;
+}
+
+.br {
+  display: block;
+  padding: 0.75em;
 }
 
 .menu-btn {
@@ -312,7 +327,12 @@ a {
 }
 
 .gray-txt {
-  color: #999;
+  color: deepskyblue;
+  letter-spacing: 2.5px;
+}
+
+.notice-txt {
+  color: darkgoldenrod;
 }
 
 .content h3 {
@@ -488,8 +508,7 @@ footer {
   color: #f4f4f4;
   background: black;
   padding: 30px 0;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 @media only screen and (max-height: 325px) {
