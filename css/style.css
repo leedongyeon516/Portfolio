@@ -326,7 +326,7 @@ a {
   padding: 40px;
 }
 
-.gray-txt {
+.subhead-txt {
   color: deepskyblue;
   letter-spacing: 2.5px;
 }
@@ -341,7 +341,8 @@ a {
 }
 
 .content p {
-  font-size: 0.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
 }
 
 .btn {
