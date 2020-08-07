@@ -441,12 +441,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 1.5s ease-in-out;
+  transition: all 0.85s ease-in-out;
 }
 
 .contact.color-active {
   background: black;
-  transition: all 1.5s ease-in-out;
+  transition: all 0.85s ease-in-out;
 }
 
 .color-txt,
