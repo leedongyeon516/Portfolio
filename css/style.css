@@ -327,6 +327,8 @@ a {
 }
 
 .subhead-txt {
+  font-size: 0.85rem;
+  font-weight: bold;
   color: deepskyblue;
   letter-spacing: 2.5px;
 }
